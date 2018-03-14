@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>empLogin</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+   <script src="js1/student.js"></script>
+    <script src="js1/crud.js"></script>
+    <script src="js1/Employee.js"></script>
+    <script src="js1/message.js"></script>
+    <script src="js1/question.js"></script>
+    
+</head>
+
+<body>
+    <textarea id="qstn" placeholder="type a question" cols="100" rows="6"></textarea><br>
+  <input type="text"  id="optn1" placeholder="option 1"><br>
+<!--    <input type="checkbox" class="cb" name="opt"  id="op1"><br>-->
+    <input type="text"  id="optn2" placeholder="option 2"><br>
+<!--    <input type="checkbox" class="cb" name="opt"  id="op2"><br>-->
+    <input type="text" id="optn3" placeholder="option 3"><br>
+<!--    <input type="checkbox" class="cb" name="opt"  id="op3"><br>-->
+    <input type="text" id="optn4" placeholder="option 4"><br>
+<!--    <input type="checkbox" class="cb" name="opt"  id="op4"><br>-->
+   <input type="text"  placeholder="answer" id="ans"><br>
+    
+    <button class="btn btn-primary" id="postBt">Post</button>
+    <button class="btn btn-danger" id="postDel">Delete</button>
+    <button class="btn btn-info" id="postEdit">Update</button>
+    <button class="btn btn-success" id="postSave">Save</button>
+    <button class="btn btn-info" id="postLoad">Load</button><br>
+    <table class="table">
+        <thead>
+            Questions
+        </thead>
+        <tbody id = "qstion">
+            
+        </tbody>
+    </table>
+    
+</body>
+
+</html>
